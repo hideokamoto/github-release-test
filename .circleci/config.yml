@@ -14,10 +14,15 @@ jobs:
           name: build
           command: npm run build
   release:
+    context:
+      - gh-release
     docker:
       - image: circleci/node:lts
     steps:
       - checkout
+      - run:
+          name: install
+          command: npm install
       - run:
           name: release
           command: npm run release
