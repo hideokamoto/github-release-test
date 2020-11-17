@@ -24,6 +24,6 @@ workflows:
   node-tests:
     jobs:
       - install-and-build
-      - release
-        requires:
-          - install-and-build
+      - release:
+          requires:
+            - install-and-build
