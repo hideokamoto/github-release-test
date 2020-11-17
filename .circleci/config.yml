@@ -1,0 +1,27 @@
+version: 2.1
+orbs:
+  node: circleci/node@3.0.0
+jobs:
+  install-and-build:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - node/install:
+          install-yarn: true
+      - run:
+          name: build
+          command: npm run build
+  release:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - run:
+          name: release
+          command: npm run release
+workflows:
+  node-tests:
+    jobs:
+      - install-and-build
+      - release
