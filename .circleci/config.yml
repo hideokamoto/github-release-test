@@ -7,8 +7,9 @@ jobs:
       - image: circleci/node:lts
     steps:
       - checkout
-      - node/install:
-          install-yarn: true
+      - run:
+          name: install
+          command: npm install
       - run:
           name: build
           command: npm run build
