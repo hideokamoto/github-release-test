@@ -1,3 +1,10 @@
+## [0.5.1](https://github.com/hideokamoto/github-release-test/compare/v0.5.0...v0.5.1) (2020-11-17)
+
+
+### Bug Fixes
+
+* remove duplicate changelog ([c468bf4](https://github.com/hideokamoto/github-release-test/commit/c468bf4f705c47efb8144fe36cacc0714dcef619))
+
 # [0.5.0](https://github.com/hideokamoto/github-release-test/compare/v0.4.2...v0.5.0) (2020-11-17)
 
 
