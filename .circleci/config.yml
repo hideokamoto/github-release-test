@@ -32,9 +32,9 @@ jobs:
 workflows:
   node-tests:
     jobs:
-      - install-and-build
+      #- install-and-build
       - release:
           context:
             - gh-release
-          requires:
-            - install-and-build
+          #requires:
+          #  - install-and-build
