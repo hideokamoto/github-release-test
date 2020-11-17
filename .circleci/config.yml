@@ -22,6 +22,11 @@ jobs:
           name: install
           command: npm install
       - run:
+          name: git configure
+          command: |
+            git config --global user.name $GITHUB_USERNAME
+            git config --global user.email $GITHUB_EMAIL
+      - run:
           name: release
           command: npm run release
 workflows:
