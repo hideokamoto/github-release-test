@@ -1,4 +1,13 @@
-## [0.3.1](https://github.com/hideokamoto/github-release-test/compare/0.3.0...0.3.1) (2020-11-17)
+# [0.4.0](https://github.com/hideokamoto/github-release-test/compare/v0.3.1...v0.4.0) (2020-11-17)
+
+
+### Features
+
+* release-it ([3c4e904](https://github.com/hideokamoto/github-release-test/commit/3c4e90431dace6ec2a4c5a1f5b2ae1f53ea6b977))
+
+
+
+## [0.3.1](https://github.com/hideokamoto/github-release-test/compare/0.3.0...v0.3.1) (2020-11-17)
 
 
 ### Bug Fixes
