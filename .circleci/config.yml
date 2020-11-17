@@ -14,8 +14,6 @@ jobs:
           name: build
           command: npm run build
   release:
-    context:
-      - gh-release
     docker:
       - image: circleci/node:lts
     steps:
@@ -31,5 +29,7 @@ workflows:
     jobs:
       - install-and-build
       - release:
+          context:
+            - gh-release
           requires:
             - install-and-build
