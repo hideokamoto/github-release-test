@@ -28,7 +28,7 @@ jobs:
             git config --global user.email $GITHUB_EMAIL
       - run:
           name: release
-          command: npm run release
+          command: npm run release --  --ci
 workflows:
   node-tests:
     jobs:
