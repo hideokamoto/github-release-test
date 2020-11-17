@@ -25,6 +25,7 @@
       "release": true,
       "releaseName": "Release ${version}",
       "releaseNotes": null,
+      "tokenRef": "GITHUB_TOKEN",
       "skipChecks": false
     },
     "plugins": {
