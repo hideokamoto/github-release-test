@@ -25,5 +25,5 @@ workflows:
     jobs:
       - install-and-build
       - release
-          requires:
-            - install-and-build
+        requires:
+          - install-and-build
