@@ -3,7 +3,6 @@
   includeMessages: "all"
   changelogFilename: "CHANGELOG.md"
   template:
-    commit: ({ message, url, author, name }) => `- [${message}](${url}) - ${author ? `@${author}` : name}`
     issue: "- {{labels}} {{name}} [{{text}}]({{url}})"
     label: "[**{{label}}**]"
     noLabel: "closed"
