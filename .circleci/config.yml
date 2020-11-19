@@ -30,6 +30,8 @@ workflows:
     jobs:
       - release:
           filters:
+            tags:
+              ignore: /.*/
             branches:
               only: main
           context:
