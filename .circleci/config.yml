@@ -23,6 +23,12 @@ jobs:
           name: build
           command: npm run build
       - run:
+          name: changelog
+          command: |
+            npm run changelog
+            git add CHANGELOG.md
+            git commit -m "docs: changelog"
+      - run:
           name: release
           command: npm run release:ci
 workflows:
