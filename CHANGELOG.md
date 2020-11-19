@@ -1,3 +1,9 @@
+## [0.9.7](https://github.com/hideokamoto/github-release-test/compare/v0.9.6...v0.9.7) (2020-11-19)
+
+## [0.9.7](https://github.com/hideokamoto/github-release-test/compare/v0.9.6...v0.9.7) (2020-11-19)
+
+
+
 ## [0.9.6](https://github.com/hideokamoto/github-release-test/compare/v0.9.5...v0.9.6) (2020-11-19)
 
 ## [0.9.6](https://github.com/hideokamoto/github-release-test/compare/v0.9.5...v0.9.6) (2020-11-19)
