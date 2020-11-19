@@ -1,3 +1,19 @@
+## [0.9.1](https://github.com/hideokamoto/github-release-test/compare/v0.9.0...v0.9.1) (2020-11-19)
+
+
+### Bug Fixes
+
+* fix ([611a1dd](https://github.com/hideokamoto/github-release-test/commit/611a1dddacdb6c1a3bb7db721c5b7afa17a5d2bb))
+
+## [0.9.1](https://github.com/hideokamoto/github-release-test/compare/v0.9.0...v0.9.1) (2020-11-19)
+
+
+### Bug Fixes
+
+* fix ([611a1dd](https://github.com/hideokamoto/github-release-test/commit/611a1dddacdb6c1a3bb7db721c5b7afa17a5d2bb))
+
+
+
 ## [0.5.1](https://github.com/hideokamoto/github-release-test/compare/v0.5.0...v0.5.1) (2020-11-17)
 
 
