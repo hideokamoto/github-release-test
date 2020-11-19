@@ -24,7 +24,7 @@ jobs:
           command: npm run build
       - run:
           name: release
-          command: npm run releas:ci
+          command: npm run release:ci
 workflows:
   node-tests:
     jobs:
