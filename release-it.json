@@ -3,7 +3,7 @@
     "git": {
       "requireCleanWorkingDir": true,
       "requireBranch": false,
-      "requireUpstream": true,
+      "requireUpstream": false,
       "requireCommits": false,
       "addUntrackedFiles": false,
       "commit": true,
