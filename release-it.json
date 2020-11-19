@@ -10,7 +10,7 @@
       "commitMessage": "Release ${version}",
       "tag": true,
       "tagAnnotation": "Release ${version}",
-      "push": true
+      "push": false
     },
     "npm": {
       "publish": false
