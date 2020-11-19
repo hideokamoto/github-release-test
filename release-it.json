@@ -7,7 +7,7 @@
       "requireUpstream": true,
       "requireCommits": false,
       "addUntrackedFiles": false,
-      "commit": false,
+      "commit": true,
       "tag": true,
       "tagAnnotation": "Release ${version}",
       "push": false
