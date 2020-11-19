@@ -1,3 +1,39 @@
+# [0.12.0](https://github.com/hideokamoto/github-release-test/compare/v0.10.0...v0.12.0) (2020-11-19)
+
+
+### Bug Fixes
+
+* fix ([d9e42d8](https://github.com/hideokamoto/github-release-test/commit/d9e42d843463034e7f2758c8bd1e5ca2ea3e7213))
+* fix ([42ff3da](https://github.com/hideokamoto/github-release-test/commit/42ff3da36eed520524d5ad3f719d50d424fc2303))
+* fix ([129835d](https://github.com/hideokamoto/github-release-test/commit/129835d7275b7dfaad4694d38354046534d3307d))
+* fix ([3842c54](https://github.com/hideokamoto/github-release-test/commit/3842c54c0009a88b8e39ed4b6880fbfd8856f1da))
+
+
+### Features
+
+* fix ([3507299](https://github.com/hideokamoto/github-release-test/commit/350729984286c968c9427d0e952764fb1e1f6fd9))
+* fix ([fc4e596](https://github.com/hideokamoto/github-release-test/commit/fc4e596e574cbdadbe9b6393a69fd91cc4a0333a))
+* fix ([1ff82d6](https://github.com/hideokamoto/github-release-test/commit/1ff82d6690bed1ebb8e93c8e6e0c1e7c209effa2))
+
+# [0.12.0](https://github.com/hideokamoto/github-release-test/compare/v0.10.0...v0.12.0) (2020-11-19)
+
+
+### Bug Fixes
+
+* fix ([d9e42d8](https://github.com/hideokamoto/github-release-test/commit/d9e42d843463034e7f2758c8bd1e5ca2ea3e7213))
+* fix ([42ff3da](https://github.com/hideokamoto/github-release-test/commit/42ff3da36eed520524d5ad3f719d50d424fc2303))
+* fix ([129835d](https://github.com/hideokamoto/github-release-test/commit/129835d7275b7dfaad4694d38354046534d3307d))
+* fix ([3842c54](https://github.com/hideokamoto/github-release-test/commit/3842c54c0009a88b8e39ed4b6880fbfd8856f1da))
+
+
+### Features
+
+* fix ([3507299](https://github.com/hideokamoto/github-release-test/commit/350729984286c968c9427d0e952764fb1e1f6fd9))
+* fix ([fc4e596](https://github.com/hideokamoto/github-release-test/commit/fc4e596e574cbdadbe9b6393a69fd91cc4a0333a))
+* fix ([1ff82d6](https://github.com/hideokamoto/github-release-test/commit/1ff82d6690bed1ebb8e93c8e6e0c1e7c209effa2))
+
+
+
 # [0.10.0](https://github.com/hideokamoto/github-release-test/compare/v0.9.7...v0.10.0) (2020-11-19)
 
 
