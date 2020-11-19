@@ -2,6 +2,14 @@ version: 2.1
 orbs:
   node: circleci/node@3.0.0
 jobs:
+  dummy-test:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - run:
+          name: install
+          run: npm install
   release:
     docker:
       - image: circleci/node:lts
@@ -30,6 +38,10 @@ jobs:
 workflows:
   node-tests:
     jobs:
+      - dummy-test:
+          filters:
+            tags:
+              only: dummy
       - release:
           filters:
             tags:
