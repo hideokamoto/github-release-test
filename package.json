@@ -6,9 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "release": "npm run release-it --config release-it.json",
-    "release:ci": "npm run release -- -- --ci",
-    "release-it": "release-it"
+    "release:ci": "npm run release-it -- --ci",
+    "release-it": "release-it --config release-it.json"
   },
   "dependencies": {
     "next": "10.0.1",
