@@ -33,7 +33,7 @@ workflows:
       - release:
           filters:
             tags:
-              ignore: /.*/
+              only: dummy
             branches:
               only: main
           context:
