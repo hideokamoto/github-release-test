@@ -41,7 +41,9 @@ jobs:
       - run:
           name: release
           command: |
+            git checkout -b release/${CIRCLE_BUILD_NUM}
             npm run release:ci
+            git push origin release/${CIRCLE_BUILD_NUM}
 workflows:
   node-tests:
     jobs:
