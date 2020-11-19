@@ -7,9 +7,10 @@
       "requireCommits": false,
       "addUntrackedFiles": false,
       "commit": true,
+      "commitMessage": "Release ${version}",
       "tag": true,
       "tagAnnotation": "Release ${version}",
-      "push": false
+      "push": true
     },
     "npm": {
       "publish": false
