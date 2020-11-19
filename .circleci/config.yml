@@ -2,6 +2,14 @@ version: 2.1
 orbs:
   node: circleci/node@3.0.0
 jobs:
+  dummy-test:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - run:
+          name: install
+          command: npm install
   release:
     docker:
       - image: circleci/node:lts
@@ -16,8 +24,6 @@ jobs:
             git remote add origin https://${CIRCLE_PROJECT_USERNAME}:${GITHUB_TOKEN}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git
             git symbolic-ref HEAD refs/heads/main
             git push --follow-tags --set-upstream origin main
-            echo $GITHUB_USERNAME
-            echo $GITHUB_EMAIL
       - run:
           name: install
           command: npm install
@@ -26,10 +32,17 @@ jobs:
           command: npm run build
       - run:
           name: release
-          command: npm run release:ci
+          command: |
+            git checkout -b release/${CIRCLE_BUILD_NUM}
+            npm run release:ci
+            git push origin release/${CIRCLE_BUILD_NUM}
 workflows:
   node-tests:
     jobs:
+      - dummy-test:
+          filters:
+            tags:
+              only: dummy
       - release:
           filters:
             tags:
