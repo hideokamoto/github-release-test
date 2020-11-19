@@ -29,5 +29,8 @@ workflows:
   node-tests:
     jobs:
       - release:
+          filters:
+            branches:
+              only: main
           context:
             - gh-release
