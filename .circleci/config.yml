@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: install
-          run: npm install
+          command: npm install
   release:
     docker:
       - image: circleci/node:lts
