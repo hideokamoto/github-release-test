@@ -43,6 +43,8 @@ workflows:
           filters:
             tags:
               only: dummy
+            branches:
+              ignore: main
       - release:
           filters:
             tags:
