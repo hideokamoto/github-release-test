@@ -1,3 +1,23 @@
+## [0.15.1](https://github.com/hideokamoto/github-release-test/compare/v0.16.0...v0.15.1) (2020-11-20)
+
+
+### Bug Fixes
+
+* add require jobs ([770e7dc](https://github.com/hideokamoto/github-release-test/commit/770e7dc5d8b362c7fea3d331881eff9231d1671d))
+* ignore test wf ([a856e97](https://github.com/hideokamoto/github-release-test/commit/a856e97511566026d6bbd977205ad243027b0c19))
+* must run test in release ([ed1f4e2](https://github.com/hideokamoto/github-release-test/commit/ed1f4e26ef95526091ace351e8aefe3f31fdeed1))
+
+## [0.15.1](https://github.com/hideokamoto/github-release-test/compare/v0.16.0...v0.15.1) (2020-11-20)
+
+
+### Bug Fixes
+
+* add require jobs ([770e7dc](https://github.com/hideokamoto/github-release-test/commit/770e7dc5d8b362c7fea3d331881eff9231d1671d))
+* ignore test wf ([a856e97](https://github.com/hideokamoto/github-release-test/commit/a856e97511566026d6bbd977205ad243027b0c19))
+* must run test in release ([ed1f4e2](https://github.com/hideokamoto/github-release-test/commit/ed1f4e26ef95526091ace351e8aefe3f31fdeed1))
+
+
+
 # [0.15.0](https://github.com/hideokamoto/github-release-test/compare/v0.14.0...v0.15.0) (2020-11-20)
 
 
