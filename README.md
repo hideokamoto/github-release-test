@@ -16,11 +16,32 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## Learn More
+## Release flow
+### Local development
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+$ git checkout main
+$ git pull origin main
+$ git checkout -b feat/XXXXX
+$ git add src
+$ git commit -m "feat: any update"
+$ git push origin feat/XXXXX
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Testing in staging
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We can test the site in development website by merging into the `development` branch.
+
+
+### Release to production
+
+We can release your feature to merge into the `release` branch.
+The release flow is the following.
+
+- Merge into the `release` branch
+- Test / Build in CI
+- Tagged new version
+- Create Release Note / CHANGELOG
+- Push the tag and released/xxx branch
+- Start to deploy production
+- merge the `released/xxx` branch into main
