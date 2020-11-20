@@ -61,7 +61,7 @@ workflows:
               only: dummy
             branches:
               ignore: 
-                - /^release.*/
+                - /^released.*/
                 - main
       - staging:
           requires:
