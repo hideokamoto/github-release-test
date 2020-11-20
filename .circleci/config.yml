@@ -60,7 +60,9 @@ workflows:
             tags:
               only: dummy
             branches:
-              ignore: release
+              ignore: 
+                - /^release.*/
+                - main
       - staging:
           filters:
             branches:
