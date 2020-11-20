@@ -17,7 +17,15 @@ jobs:
       - checkout
       - run:
           name: deploy
-          command: Deployed!
+          command: echo "Deployed!"
+  staging:
+    docker:
+      - image: circleci/node:lts
+    steps:
+      - checkout
+      - run:
+          name: deploy
+          command: echo "STG Deployed!"
   release:
     docker:
       - image: circleci/node:lts
@@ -30,8 +38,8 @@ jobs:
             git config --global user.email $GITHUB_EMAIL
             git remote rm origin
             git remote add origin https://${CIRCLE_PROJECT_USERNAME}:${GITHUB_TOKEN}@github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}.git
-            git symbolic-ref HEAD refs/heads/staging
-            git push --follow-tags --set-upstream origin staging
+            git symbolic-ref HEAD refs/heads/release
+            git push --follow-tags --set-upstream origin release
       - run:
           name: install
           command: npm install
@@ -41,9 +49,9 @@ jobs:
       - run:
           name: release
           command: |
-            git checkout -b release/${CIRCLE_BUILD_NUM}
+            git checkout -b released/${CIRCLE_BUILD_NUM}
             npm run release:ci
-            git push origin release/${CIRCLE_BUILD_NUM}
+            git push origin released/${CIRCLE_BUILD_NUM}
 workflows:
   node-tests:
     jobs:
@@ -52,13 +60,17 @@ workflows:
             tags:
               only: dummy
             branches:
-              ignore: staging
+              ignore: release
+      - staging:
+          filters:
+            branches:
+              only: development
       - release:
           filters:
             tags:
               only: dummy
             branches:
-              only: staging
+              only: release
           context:
             - gh-release
       - deploy:
