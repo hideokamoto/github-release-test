@@ -64,6 +64,8 @@ workflows:
                 - /^release.*/
                 - main
       - staging:
+          requires:
+            - dummy-test
           filters:
             branches:
               only: development
