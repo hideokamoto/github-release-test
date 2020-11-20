@@ -1,3 +1,21 @@
+# [0.14.0](https://github.com/hideokamoto/github-release-test/compare/v0.12.1...v0.14.0) (2020-11-19)
+
+
+### Features
+
+* 3way deployment ([97e8418](https://github.com/hideokamoto/github-release-test/commit/97e84186b8c0ff755a0eb32a7e2cab904115ec73))
+* branches ([848d61a](https://github.com/hideokamoto/github-release-test/commit/848d61ad3f181e4131c423cbbb9b498ec108e579))
+
+# [0.14.0](https://github.com/hideokamoto/github-release-test/compare/v0.13.0...v0.14.0) (2020-11-19)
+
+
+### Features
+
+* 3way deployment ([97e8418](https://github.com/hideokamoto/github-release-test/commit/97e84186b8c0ff755a0eb32a7e2cab904115ec73))
+* branches ([848d61a](https://github.com/hideokamoto/github-release-test/commit/848d61ad3f181e4131c423cbbb9b498ec108e579))
+
+
+
 # [0.12.0](https://github.com/hideokamoto/github-release-test/compare/v0.10.0...v0.12.0) (2020-11-19)
 
 
