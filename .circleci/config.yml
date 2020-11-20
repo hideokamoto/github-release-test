@@ -60,8 +60,12 @@ workflows:
             tags:
               only: dummy
             branches:
-              ignore: release
+              ignore: 
+                - /^released.*/
+                - main
       - staging:
+          requires:
+            - dummy-test
           filters:
             branches:
               only: development
