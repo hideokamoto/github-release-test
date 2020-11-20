@@ -1,3 +1,29 @@
+# [0.16.0](https://github.com/hideokamoto/github-release-test/compare/v0.15.0...v0.16.0) (2020-11-20)
+
+
+### Bug Fixes
+
+* ignore test wf ([a856e97](https://github.com/hideokamoto/github-release-test/commit/a856e97511566026d6bbd977205ad243027b0c19))
+
+
+### Features
+
+* release flow ([7020bd1](https://github.com/hideokamoto/github-release-test/commit/7020bd1576728730e738277fd8c54adacbec5488))
+
+# [0.16.0](https://github.com/hideokamoto/github-release-test/compare/v0.15.0...v0.16.0) (2020-11-20)
+
+
+### Bug Fixes
+
+* ignore test wf ([a856e97](https://github.com/hideokamoto/github-release-test/commit/a856e97511566026d6bbd977205ad243027b0c19))
+
+
+### Features
+
+* release flow ([7020bd1](https://github.com/hideokamoto/github-release-test/commit/7020bd1576728730e738277fd8c54adacbec5488))
+
+
+
 # [0.15.0](https://github.com/hideokamoto/github-release-test/compare/v0.14.0...v0.15.0) (2020-11-20)
 
 
